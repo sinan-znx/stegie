@@ -1,0 +1,55 @@
+.cont {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-cont {
+    margin-top: 5rem;
+    display: flex;
+
+}
+
+.img1 {
+    margin-right: 15rem;
+    margin-bottom: 10rem;
+}
+
+img {
+    width: 300px;
+}
+
+
+.opa {
+    opacity: 0;
+    width: 10px;
+}
+#homebd
+{
+    padding-top: 100px ;
+display: flex;
+align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    flex-direction: column;
+
+}
+.bt{
+    width: 100px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.btn{
+    border-radius: 50px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: none;
+    font-size: 24px;
+
+}
