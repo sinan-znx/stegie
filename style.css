@@ -38,18 +38,65 @@ align-items: center;
     flex-direction: column;
 
 }
-.bt{
+ .bt{
     width: 100px;
     display: flex;
     gap: 16px;
-    justify-content: center;
+    justify-content: center; 
 }
-.btn{
+ .btn{
     border-radius: 50px;
     padding: 30px;
     padding-left: 50px;
     padding-right: 50px;
-    border-style: none;
+    border-style:none;
     font-size: 24px;
+ 
 
+}
+.btn:hover{
+    background-color:#b5b1a7;
+}
+.thala{
+    color: black;
+    margin-top: 28px;
+    margin-left: 39px;
+    font-family: "poppins";
+    font-weight: bolder;
+    font-size: 20px;
+}
+.upl{
+    width: 500px;
+    height: 500px;
+}
+.image-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.formm{
+    
+    margin-right: 148px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.okda{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hedding{
+    font-family:"poppins";
+}
+.back{
+    display: flex;
+    flex-direction: column;
 }
